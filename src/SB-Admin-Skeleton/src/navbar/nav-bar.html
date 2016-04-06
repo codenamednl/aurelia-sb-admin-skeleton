@@ -1,0 +1,21 @@
+﻿<template>
+    <require from="navbar/nav-bar-top.html"></require>
+
+    <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle Navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">
+                <i class="fa fa-home"></i>
+                <span>${router.title}</span>
+            </a>
+        </div>
+
+        <nav-bar-top router.bind="router"></nav-bar-top>
+
+    </nav>
+</template>

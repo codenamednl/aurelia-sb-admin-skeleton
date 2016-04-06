@@ -1,0 +1,15 @@
+<template>    
+    <require from="navbar/nav-bar.html"></require>
+    <require from="bootstrap/css/bootstrap.css"></require>
+    <require from="../lib/metisMenu/dist/metisMenu.min.css"></require>
+    <require from="../lib/startbootstrap-sb-admin-2/dist/css/timeline.css"></require>
+    <require from="../lib/startbootstrap-sb-admin-2/dist/css/sb-admin-2.css"></require>
+    <require from="../lib/morrisjs/morris.css"></require>
+    <require from="font-awesome/css/font-awesome.min.css"></require>
+
+    <nav-bar router.bind="router"></nav-bar>
+
+    <div class="page-host">
+        <router-view></router-view>
+    </div>
+</template>
